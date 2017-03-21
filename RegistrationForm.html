@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> RegistrationForm </title>
+</head>
+</html>
+<body>
+<center>
+<header>
+<h1>Welcome To My Web Page</h1>
+</header>
+<hr>
+<nav>
+<a href="Home.html">Home</a> |
+  <a href="AboutMe.html">About Me</a> |
+  <a href="MyPhotos.html">My Photos</a> | 
+  <a href="Hobbies.html">Hobbies</a> |
+  <a href="HomeTown.html">HomeTown</a> | 
+  <a href="SocialMedias.html">Social Medias</a> | 
+  <a href="ContactMe.html">Contact Me</a> |
+  <a href="RegistrationForm.html">Registration Form</a> |
+</nav>
+<hr>
+<h1>Registration Form</h1>
+<br>
+<br>
+First Name: <input type="text">
+Last Name : <input type="text"> <br>
+<br>
+<label for=photo> Profile Photo: </label><input type="file" name="photo" >
+<br>
+  <br>
+ Birthday:
+  <input type="date" name="bday"> <br>
+  <br>
+City:
+<select>
+
+  <option value="ISTANBUL">ISTANBUL</option>
+  <option value="ESKISEHIR">ESKISEHIR</option>
+  <option value="ANKARA">ANKARA</option>
+  <option value="IZMIR">IZMIR</option>
+  <option value="HATAY">HATAY</option>
+  <option value="BALIKESIR">BALIKESIR</option>
+  <option value="AYDIN">AYDIN</option>
+  <option value="MUGLA">MUGLA</option>
+  <option value="ANTALYA">ANTALYA</option>
+  <option value="ADANA">ADANA</option>
+  <option value="BURSA">BURSA</option>
+</select>
+<br>
+<br>
+ <form action="">
+Gender: <input type="radio" name="gender" value="male"> Male 
+
+  <input type="radio" name="gender" value="female"> Female
+
+  <input type="radio" name="gender" value="male"> Other 
+  <br>
+  <br>
+</form>
+ What are you interested in:<input type="checkbox" name="interests" > Camping
+<input type="checkbox" name="interests" > Surfing on internet
+<input type="checkbox" name="interests" > Reading
+<input type="checkbox" name="interests" > Swimming
+
+<br>
+<br>
+<label for=textarea name=textarea> About You: </label>
+<textarea form=contact rows=8 cols=55 " ></textarea><br>
+Email address:<br>
+
+<input type="text" name="Email address"><br>
+<br>
+Password: <br>
+ <input type="password" name="Password"><br>
+ <br>
+  
+  <input type=submit value=Submit onclick="return alert('Thanks for registration!')"> 
+</form>
+
+</body>
